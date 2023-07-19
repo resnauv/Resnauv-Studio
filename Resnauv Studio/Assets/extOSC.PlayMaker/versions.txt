@@ -1,0 +1,13 @@
+extOSC.PlayMaker - extOSC support for PlayMaker by V. Sigalkin
+
+----
+v1.0
+----
+
+- First Release
+
+----
+v1.1
+----
+
+- Added OSCTransmitter actions.
