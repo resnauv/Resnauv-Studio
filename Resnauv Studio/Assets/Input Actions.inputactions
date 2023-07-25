@@ -1,1 +1,57 @@
-{}
+{
+    "name": "Input Actions",
+    "maps": [
+        {
+            "name": "Move",
+            "id": "e9c7bb71-51f6-4570-8ffe-391c5015fe1b",
+            "actions": [
+                {
+                    "name": "Axis Input",
+                    "type": "Value",
+                    "id": "8a8890ac-e495-4b78-ae65-2d56ae0e611d",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5d4d855a-32cd-49d5-9193-a77aa6613bb8",
+                    "path": "<XInputController>/leftStick/x",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Xbox Controller",
+                    "action": "Axis Input",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb570744-83ca-44c8-8902-7eefa6807503",
+                    "path": "<XInputController>/leftStick/y",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Xbox Controller",
+                    "action": "Axis Input",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Xbox Controller",
+            "bindingGroup": "Xbox Controller",
+            "devices": [
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
